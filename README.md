@@ -6,8 +6,8 @@ To run the code, you need:
 
 2 For each dataset, create a folder in "emb" folder with its corresponding name to store node embeddings, i.e., for arXivAI dataset, create "./emb/arXivAI".
 
-2 Run the 'main.py' in the ./framework folder.
+3 For training, run the 'main.py' in the ./framework folder, all parameter settings have default values and you can adjust them in 'main.py'.
 
-3 Run the 'clustering.py' in the ./framework/experiments folder.
+4 For test, Run the 'clustering.py' in the ./framework/experiments folder.
 
 Note that the node embeddings in the 'emb' folder are just placeholders, you need to run the main code to generate them.
