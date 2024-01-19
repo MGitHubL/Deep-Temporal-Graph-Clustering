@@ -2,7 +2,7 @@ This is an early version of TGC.
 
 To run the code, you need:
 
-1 Download the pretrain embeddings from [[release](https://github.com/MGitHubL/TGC/releases/tag/pretrain.emb)], and then unzip it into the ./framework/pretrain folder.
+1 Download the data from [[Data4TGC](https://github.com/MGitHubL/Data4TGC)] into the ./data folder.
 
 2 Run the 'main.py' in the ./framework folder.
 
