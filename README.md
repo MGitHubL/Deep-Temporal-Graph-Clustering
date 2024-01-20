@@ -18,19 +18,32 @@ You can download the datasets from [Data4TGC](https://github.com/MGitHubL/Data4T
 
 #### For Pre-Training
 
-In ```./framework/pretrain```, you need run the pretrain.py to generate pretrain embeddings.
+In ```./framework/pretrain/```, you need run the ```pretrain.py``` to generate pretrain embeddings.
 
 Note that these embeddings are used for TGC training, while the features in the dataset are used for training by any other method.
 
 That is, the pre-training of node2vec is only part of the TGC.
 
+#### For Training
+
+You need create a folder for each dataset in ```./emb/``` to store generated node embeddings.
+
+For example, after training with `Patent` dataset, the node embeddings will be stored in ```./emb/patent/```
+
+
 ## Run
 
 For each dataset, create a folder in ```emb``` folder with its corresponding name to store node embeddings, i.e., for arXivAI dataset, create ```./emb/arXivAI```.
 
-3 For training, run the ```main.py``` in the ```./framework``` folder, all parameter settings have default values, you can adjust them in ```main.py```.
+For training, run the ```main.py``` in the ```./framework``` folder, all parameter settings have default values, you can adjust them in ```main.py```.
 
-4 For test, Run the ```clustering.py``` in the ```./framework/experiments``` folder.
+## Test
+
+For test, you have two ways:
+
+(1) In the training process, we evaluate the clustering performance for each epoch.
+
+(2) You can also run the ```clustering.py``` in the ```./framework/experiments``` folder.
 
 Note that the node embeddings in the ```./emb./patent/patent_TGC_200.emb``` folder are just placeholders, you need to run the main code to generate them.
 
