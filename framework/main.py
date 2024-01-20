@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', type=str, default=data)
     parser.add_argument('--clusters', type=int, default=k_dict[data])
     # dblp/10, arxivAI/5
-    parser.add_argument('--epoch', type=int, default=20)
+    parser.add_argument('--epoch', type=int, default=200)
     # dblp/50, arxivAI/200
     parser.add_argument('--neg_size', type=int, default=2)
     parser.add_argument('--hist_len', type=int, default=1)
