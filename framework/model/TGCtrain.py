@@ -2,7 +2,6 @@ import math
 
 import torch
 from torch.autograd import Variable
-# torch.autograd.Variable是Autograd的核心类，它封装了Tensor，并整合了反向传播的相关实现
 from torch.optim import SGD, Adam
 from torch.utils.data import DataLoader
 from torch.nn.functional import softmax
