@@ -32,7 +32,7 @@ For each dataset, create a folder in ```emb``` folder with its corresponding nam
 
 4 For test, Run the ```clustering.py``` in the ```./framework/experiments``` folder.
 
-Note that the node embeddings in the ```emb``` folder are just placeholders, you need to run the main code to generate them.
+Note that the node embeddings in the ```./emb./patent/patent_TGC_200.emb``` folder are just placeholders, you need to run the main code to generate them.
 
 
 ## Cite us
