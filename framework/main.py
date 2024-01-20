@@ -23,16 +23,20 @@ def main_train(args):
 
 
 if __name__ == '__main__':
+    data = 'patent'
+    k_dict = {'arxivAI': 5, 'arxivCS': 40, 'arxivPhy': 53, 'arxivMath': 31, 'arxivLarge': 172, 'school': 9, 'dblp': 10,
+              'brain': 10, 'patent': 6}
+
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', type=str, default='arxivAI')
-    parser.add_argument('--clusters', type=int, default=5)
+    parser.add_argument('--dataset', type=str, default=data)
+    parser.add_argument('--clusters', type=int, default=k_dict[data])
     # dblp/10, arxivAI/5
-    parser.add_argument('--epoch', type=int, default=200)
+    parser.add_argument('--epoch', type=int, default=20)
     # dblp/50, arxivAI/200
     parser.add_argument('--neg_size', type=int, default=2)
     parser.add_argument('--hist_len', type=int, default=1)
     # dblp/5, arxivAI/1
-    parser.add_argument('--save_step', type=int, default=200)
+    parser.add_argument('--save_step', type=int, default=50)
     parser.add_argument('--batch_size', type=int, default=1024)
     parser.add_argument('--learning_rate', type=float, default=0.01)
     parser.add_argument('--emb_size', type=int, default=128)
