@@ -157,7 +157,7 @@ class TGC:
     def train(self):
         for epoch in range(self.epochs):
             self.loss = 0.0
-            loader = DataLoader(self.data, batch_size=self.batch, shuffle=True, num_workers=4)
+            loader = DataLoader(self.data, batch_size=self.batch, shuffle=True, num_workers=1)
 
             if epoch % self.save_step == 0 and epoch != 0:
                 self.save_node_embeddings(self.emb_path % (self.the_data, self.the_data, epoch))
