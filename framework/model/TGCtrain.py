@@ -159,9 +159,6 @@ class TGC:
             self.loss = 0.0
             loader = DataLoader(self.data, batch_size=self.batch, shuffle=True, num_workers=1)
 
-            if epoch % self.save_step == 0 and epoch != 0:
-                self.save_node_embeddings(self.emb_path % (self.the_data, self.the_data, epoch))
-
             for i_batch, sample_batched in enumerate(loader):
                 if i_batch != 0:
                     sys.stdout.write('\r' + str(i_batch * self.batch) + '\tloss: ' + str(
@@ -186,6 +183,7 @@ class TGC:
                 self.best_nmi = nmi
                 self.best_ari = ari
                 self.best_f1 = f1
+                self.save_node_embeddings(self.emb_path % (self.the_data, self.the_data, self.epochs))
 
             sys.stdout.write('\repoch %d: loss=%.4f  ' % (epoch, (self.loss.cpu().numpy() / len(self.data))))
             sys.stdout.write('ACC(%.4f) NMI(%.4f) ARI(%.4f) F1(%.4f)\n' % (acc, nmi, ari, f1))
@@ -193,7 +191,7 @@ class TGC:
 
         print('Best performance: ACC(%.4f) NMI(%.4f) ARI(%.4f) F1(%.4f)' %
               (self.best_acc, self.best_nmi, self.best_ari, self.best_f1))
-        self.save_node_embeddings(self.emb_path % (self.the_data, self.the_data, self.epochs))
+        
 
     def save_node_embeddings(self, path):
         if torch.cuda.is_available():
