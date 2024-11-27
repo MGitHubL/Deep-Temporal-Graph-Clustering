@@ -8,6 +8,12 @@ This is the PyTorch version of TGC. We want to provide you with as much usable c
 
 If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
 
+#### Award
+
+Best Paper Award of 2024 China Computational Power Conference.
+
+Excellent Poster Award of 2024 World Young Scientist Summit.
+
 ## Prepare
 
 To run the code, you need prepare datasets and pretrain embeddings:
