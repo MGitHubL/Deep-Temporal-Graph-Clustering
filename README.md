@@ -1,21 +1,22 @@
 # Deep Temporal Graph Clustering
 
+This is a comprehensive repository that brings together our work on deep temporal graph clustering, including a series of related papers, open source datasets, and implementations of the TGC base code.
+
+If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
 
 ## Key Papers
 
-### ICLR 2024: Deep Temporal Graph Clustering
+### [1] ICLR 2024: Deep Temporal Graph Clustering
 
 Authors: Meng Liu, Yue Liu, Ke Liang, Wenxuan Tu, Siwei Wang, Sihang Zhou, Xinwang Liu
 
 Link: https://arxiv.org/abs/2305.10738
 
-If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
-
 #### Award
 
 Best Paper Award of 2024 China Computational Power Conference.
 
-Excellent Poster Award of 2024 World Young Scientist Summit.
+Excellent Poster Award of 2024 World Young Scientist Summit..
 
 ## Code of TGC
 
