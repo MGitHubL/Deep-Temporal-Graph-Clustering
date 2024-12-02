@@ -1,10 +1,13 @@
 # Deep Temporal Graph Clustering
 
+
+## Key Papers
+
+### ICLR 2024: Deep Temporal Graph Clustering
+
 Authors: Meng Liu, Yue Liu, Ke Liang, Wenxuan Tu, Siwei Wang, Sihang Zhou, Xinwang Liu
 
-Paper: https://arxiv.org/abs/2305.10738 (ICLR 2024)
-
-This is the PyTorch version of TGC. We want to provide you with as much usable code as possible.
+Link: https://arxiv.org/abs/2305.10738
 
 If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
 
@@ -14,7 +17,9 @@ Best Paper Award of 2024 China Computational Power Conference.
 
 Excellent Poster Award of 2024 World Young Scientist Summit.
 
-## Prepare
+## Data
+
+This is the PyTorch version of TGC. We want to provide you with as much usable code as possible.
 
 To run the code, you need prepare datasets and pretrain embeddings:
 
