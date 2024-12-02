@@ -17,9 +17,11 @@ Best Paper Award of 2024 China Computational Power Conference.
 
 Excellent Poster Award of 2024 World Young Scientist Summit.
 
-## Data
+## Code of TGC
 
 This is the PyTorch version of TGC. We want to provide you with as much usable code as possible.
+
+## Prepare
 
 To run the code, you need prepare datasets and pretrain embeddings:
 
@@ -42,13 +44,13 @@ You need create a folder for each dataset in ```./emb/``` to store generated nod
 For example, after training with `Patent` dataset, the node embeddings will be stored in ```./emb/patent/```
 
 
-## Run
+### Run
 
 For each dataset, create a folder in ```emb``` folder with its corresponding name to store node embeddings, i.e., for arXivAI dataset, create ```./emb/arXivAI```.
 
 For training, run the ```main.py``` in the ```./framework``` folder, all parameter settings have default values, you can adjust them in ```main.py```.
 
-## Test
+### Test
 
 For test, you have two ways:
 
