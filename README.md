@@ -6,11 +6,12 @@ If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
 
 ## Key Papers
 
-#### [1] ICLR 2024: Deep Temporal Graph Clustering
+#### [1] ICLR 2024: Deep Temporal Graph Clustering [paper[https://arxiv.org/abs/2305.10738]]
 
 Authors: Meng Liu, Yue Liu, Ke Liang, Wenxuan Tu, Siwei Wang, Sihang Zhou, Xinwang Liu
 
-Link: https://arxiv.org/abs/2305.10738
+Paper: https://arxiv.org/abs/2305.10738
+
 
 #### Award
 
