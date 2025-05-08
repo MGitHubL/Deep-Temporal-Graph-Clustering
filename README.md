@@ -10,9 +10,6 @@ If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
 
 Authors: Meng Liu, Yue Liu, Ke Liang, Wenxuan Tu, Siwei Wang, Sihang Zhou, Xinwang Liu
 
-
-#### Award
-
 Best Paper Award of 2024 China Computational Power Conference.
 
 Excellent Poster Award of 2024 World Young Scientist Summit.
