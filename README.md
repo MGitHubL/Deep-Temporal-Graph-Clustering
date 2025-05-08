@@ -16,7 +16,7 @@ Link: https://arxiv.org/abs/2305.10738
 
 Best Paper Award of 2024 China Computational Power Conference.
 
-Excellent Poster Award of 2024 World Young Scientist Summit..
+Excellent Poster Award of 2024 World Young Scientist Summit.
 
 ## Code of TGC
 
