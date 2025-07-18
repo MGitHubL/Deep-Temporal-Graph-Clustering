@@ -8,11 +8,15 @@ If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
 
 #### [1] ICLR 2024: Deep Temporal Graph Clustering [[paper](https://arxiv.org/abs/2305.10738)][[code](https://github.com/MGitHubL/Deep-Temporal-Graph-Clustering)]
 
-Authors: Meng Liu, Yue Liu, Ke Liang, Wenxuan Tu, Siwei Wang, Sihang Zhou, Xinwang Liu
+Authors: Meng Liu, Yue Liu, Ke Liang, Wenxuan Tu, Siwei Wang, Sihang Zhou, Xinwang Liu.
 
 Best Paper Award of 2024 China Computational Power Conference.
 
 Excellent Poster Award of 2024 World Young Scientist Summit.
+
+#### [2] TNNLS 2025: Multiview Temporal Graph Clustering [[paper](https://ieeexplore.ieee.org/document/11079275)][[code](https://github.com/MGitHubL/MVTGC)]
+
+Authors: Meng Liu, Ke Liang, Hao Yu, Lingyuan Meng, Siwei Wang, Sihang Zhou, Xinwang Liu.
 
 ## Code of TGC
 
