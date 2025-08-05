@@ -75,6 +75,13 @@ If you feel our work has been helpful, thank you for the citation.
 ## Cite us
 
 ```
+@ARTICLE{BenchTGC_ML_TPAMI,
+  author={Liu, Meng and Liang, Ke and Wang, Siwei and Hu, Xingchen and Zhou, Sihang and Liu, Xinwang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Deep Temporal Graph Clustering: A Comprehensive benchmark and Datasets}, 
+  year={2025}
+}
+
 @inproceedings{TGC_ML_ICLR,
   author={Liu, Meng and Liu, Yue and Liang, Ke and Tu, Wenxuan and Wang, Siwei and Zhou, Sihang and Liu, Xinwang},
   title={Deep Temporal Graph Clustering},
