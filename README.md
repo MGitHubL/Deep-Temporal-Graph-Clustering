@@ -4,7 +4,7 @@ This is a comprehensive repository that brings together our work on deep tempora
 
 If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
 
-## Key Papers
+## Related Papers
 
 #### [1] ICLR 2024: Deep Temporal Graph Clustering [[paper](https://arxiv.org/abs/2305.10738)][[code](https://github.com/MGitHubL/Deep-Temporal-Graph-Clustering)]
 
