@@ -16,7 +16,7 @@ Authors: Meng Liu, Yue Liu, Ke Liang, Wenxuan Tu, Siwei Wang, Sihang Zhou, Xinwa
 
 *Excellent Poster Award of 2024 World Young Scientist Summit.*
 
-#### [2] TPAMI 2025: Deep Temporal Graph Clustering: A Comprehensive benchmark and Datasets [[code](https://github.com/MGitHubL/BenchTGC)]
+#### [2] TPAMI 2025: Deep Temporal Graph Clustering: A Comprehensive benchmark and Datasets [[paper](https://ieeexplore.ieee.org/abstract/document/11119339)][[code](https://github.com/MGitHubL/BenchTGC)]
 
 Authors: Meng Liu, Ke Liang, Siwei Wang, Xingchen Hu, Sihang Zhou, Xinwang Liu.
 
