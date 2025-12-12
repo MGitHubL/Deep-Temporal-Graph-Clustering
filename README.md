@@ -28,7 +28,6 @@ Authors: Meng Liu, Ke Liang, Hao Yu, Lingyuan Meng, Siwei Wang, Sihang Zhou, Xin
 
 This is the PyTorch version of TGC. We want to provide you with as much usable code as possible.
 
-***
 
 ### Prepare
 
@@ -52,7 +51,6 @@ You need create a folder for each dataset in ```./emb/``` to store generated nod
 
 For example, after training with `Patent` dataset, the node embeddings will be stored in ```./emb/patent/```
 
----
 
 ### Run
 
@@ -60,7 +58,6 @@ For each dataset, create a folder in ```emb``` folder with its corresponding nam
 
 For training, run the ```main.py``` in the ```./framework``` folder, all parameter settings have default values, you can adjust them in ```main.py```.
 
----
 
 ### Test
 
