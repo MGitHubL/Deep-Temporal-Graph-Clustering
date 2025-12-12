@@ -28,7 +28,7 @@ Authors: Meng Liu, Ke Liang, Hao Yu, Lingyuan Meng, Siwei Wang, Sihang Zhou, Xin
 
 This is the PyTorch version of TGC. We want to provide you with as much usable code as possible.
 
----
+***
 
 ### Prepare
 
