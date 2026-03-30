@@ -76,8 +76,6 @@ Note that the node embeddings in the ```./emb./patent/patent_TGC_200.emb``` fold
 
 If you feel our work has been helpful, thank you for the citation.
 
-## Cite us
-
 ```
 @ARTICLE{BenchTGC_ML_TPAMI,
   author={Liu, Meng and Liang, Ke and Wang, Siwei and Hu, Xingchen and Zhou, Sihang and Liu, Xinwang},
