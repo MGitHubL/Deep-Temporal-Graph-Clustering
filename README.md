@@ -54,6 +54,8 @@ You need create a folder for each dataset in ```./emb/``` to store generated nod
 For example, after training with `Patent` dataset, the node embeddings will be stored in ```./emb/patent/```
 
 
+### Environment
+
 ### Run
 
 For each dataset, create a folder in ```emb``` folder with its corresponding name to store node embeddings, i.e., for arXivAI dataset, create ```./emb/arXivAI```.
@@ -70,6 +72,8 @@ For test, you have two ways:
 (2) You can also run the ```clustering.py``` in the ```./framework/experiments``` folder.
 
 Note that the node embeddings in the ```./emb./patent/patent_TGC_200.emb``` folder are just placeholders, you need to run the main code to generate them.
+
+### Parameters
 
 
 ## Cite us
