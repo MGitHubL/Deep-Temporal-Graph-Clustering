@@ -10,17 +10,19 @@ If you find any problems, feel free to contact us: ```mengliuedu@163.com```.
 
 Authors: Meng Liu, Yue Liu, Ke Liang, Wenxuan Tu, Siwei Wang, Sihang Zhou, Xinwang Liu.
 
-*Best Paper Award of 2024 China Computational Power Conference.*
+*Best Paper Award of China Computational Power Conference, 2024.*
 
-*Youth Oustanding Paper Award Shortlist of 2025 World Artificial Intelligence Conference.*
+*Youth Oustanding Paper Award Shortlist of World Artificial Intelligence Conference, 2025.*
 
-*Excellent Poster Award of 2024 World Young Scientist Summit.*
+*Excellent Poster Award of World Young Scientist Summit, 2024.*
+
+*Open-Source Star of Openatom Foundation, 2025.*
 
 #### [2] TPAMI 2025: Deep Temporal Graph Clustering: A Comprehensive benchmark and Datasets [[paper](https://ieeexplore.ieee.org/abstract/document/11119339)][[code](https://github.com/MGitHubL/BenchTGC)]
 
 Authors: Meng Liu, Ke Liang, Siwei Wang, Xingchen Hu, Sihang Zhou, Xinwang Liu.
 
-*Excellent Paper Award of 2025 Guangdong-HongKong-Macao Conference on Image and Graphics.*
+*Excellent Paper Award of Guangdong-HongKong-Macao Conference on Image and Graphics, 2025.*
 
 #### [3] TNNLS 2025: Multiview Temporal Graph Clustering [[paper](https://ieeexplore.ieee.org/document/11079275)][[code](https://github.com/MGitHubL/MVTGC)]
 
