@@ -90,7 +90,7 @@ Note that the node embeddings in the ```./emb./patent/patent_TGC_200.emb``` fold
 
 ```
 | Parameter | Default | Description |
-|---|---:|---|
+
 | `--data` | `patent` | Dataset name. The script reads the temporal edge file from `../../data/{data}/{data}.txt` and converts it to an edgelist file. |
 | `--input` | `../../data/{data}/{data}.edgelist` | Input edgelist file used by node2vec. This file is generated automatically from the temporal edge file. |
 | `--output` | `./{data}_feature.emb` | Output file for the pre-trained node embeddings. |
