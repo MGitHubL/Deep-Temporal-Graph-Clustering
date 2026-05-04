@@ -88,6 +88,24 @@ Note that the node embeddings in the ```./emb./patent/patent_TGC_200.emb``` fold
 
 ### Parameters
 
+```
+| Parameter | Default | Description |
+|---|---:|---|
+| `--data` | `patent` | Dataset name. The script reads the temporal edge file from `../../data/{data}/{data}.txt` and converts it to an edgelist file. |
+| `--input` | `../../data/{data}/{data}.edgelist` | Input edgelist file used by node2vec. This file is generated automatically from the temporal edge file. |
+| `--output` | `./{data}_feature.emb` | Output file for the pre-trained node embeddings. |
+| `--dimensions` | `128` | Dimensionality of the pre-trained node embeddings. This value should be consistent with `--emb_size` in the TGC training stage. |
+| `--walk-length` | `80` | Length of each random walk sampled by node2vec. |
+| `--num-walks` | `10` | Number of random walks sampled from each node. |
+| `--window-size` | `10` | Context window size used by the Skip-gram model in Word2Vec. |
+| `--iter` | `1` | Number of training epochs for Word2Vec. |
+| `--workers` | `8` | Number of parallel CPU workers used by Word2Vec. |
+| `--p` | `1.0` | Return parameter in node2vec. A smaller value encourages the walk to return to the previous node. |
+| `--q` | `1.0` | In-out parameter in node2vec. A smaller value encourages outward exploration, while a larger value biases the walk toward local neighborhoods. |
+| `--weighted` | `False` | Whether to use edge weights when reading the edgelist. By default, the graph is treated as unweighted. |
+| `--directed` | `False` | Whether to treat the graph as directed during node2vec pre-training. By default, the graph is converted to undirected. |
+
+```
 
 ## Cite us
 
