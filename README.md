@@ -56,7 +56,18 @@ You need create a folder for each dataset in ```./emb/``` to store generated nod
 For example, after training with `Patent` dataset, the node embeddings will be stored in ```./emb/patent/```
 
 
-### Environment
+### Requirements
+
+```
+torch==1.12.1
+gensim==3.8.3
+networkx==2.8.4
+numpy==1.23.5
+scipy==1.10.1
+scikit-learn==1.1.1
+munkres==1.1.4
+pandas==1.5.2
+```
 
 ### Run
 
