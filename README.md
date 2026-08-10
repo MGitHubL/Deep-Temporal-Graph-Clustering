@@ -24,6 +24,8 @@ Authors: Meng Liu, Ke Liang, Siwei Wang, Xingchen Hu, Sihang Zhou, Xinwang Liu.
 
 *Excellent Paper Award of Guangdong-HongKong-Macao Conference on Image and Graphics, 2025.*
 
+*Youth Open Source Special Fund Seed Program, 2026.*
+
 #### [3] TNNLS 2025: Multiview Temporal Graph Clustering [[paper](https://ieeexplore.ieee.org/document/11079275)][[code](https://github.com/MGitHubL/MVTGC)]
 
 Authors: Meng Liu, Ke Liang, Hao Yu, Lingyuan Meng, Siwei Wang, Sihang Zhou, Xinwang Liu.
